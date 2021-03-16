@@ -1,0 +1,47 @@
+/*font*/
+@font-face{
+ src:url(../fonts/PTSans-Regular.ttf);
+ font-family:PTSans-Regular;
+}
+@font-face{
+	src:url(../fonts/PTSans-Bold.ttf);
+	font-family:PTSans-bold;
+}
+@font-face{
+	src:url(../fonts/HelveticaNeue-Regular.ttf);
+	font-family:HelveticaNeue-regular;
+}
+/*font*/
+/*common start*/
+body{
+	font-family:'PTSans',sans-serif;
+	font-size:16px;
+	font-weight:400;
+	color:#010101;
+}
+
+/*common end*/
+
+/*header start*/
+header{
+	background-color:#fcdb00;
+	padding:20px 0;
+}
+.logo{}
+.menu{}
+.menu ul{}
+.menu ul li a:hover{
+	color:white !important;
+}
+.menu ul li:last-child a{
+	padding-right:0px !important;
+}
+.menu ul li a{
+font-family:PTSans-bold;
+font-weight:700;
+font-size:22px;
+color:#010101 !important;
+padding:0 35px !important;
+}
+
+/*header end*/
